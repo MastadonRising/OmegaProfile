@@ -17,3 +17,24 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+body,
+html {
+  height: 100%;
+  font-family: monospace;
+}
+.bg {
+  /* The image used */
+  background-image: url("/assets/images/log.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fa-home {
+  padding-right: 1%;
+}
